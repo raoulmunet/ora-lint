@@ -1,0 +1,8 @@
+SELECT * FROM customers WHERE UPPER(customer_name) = 'RAOUL';
+
+BEGIN
+  NULL;
+EXCEPTION
+  WHEN OTHERS THEN NULL;
+END;
+/
